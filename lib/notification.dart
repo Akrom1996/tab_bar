@@ -58,7 +58,7 @@ class _NotificationPageState extends State<NotificationPage>
                           horizontal: 4, vertical: 2),
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(16),
-                          color: Colors.red),
+                          color: Colors.deepOrangeAccent),
                       child: const Text(
                         "12",
                         style: TextStyle(
@@ -82,7 +82,7 @@ class _NotificationPageState extends State<NotificationPage>
                 fontSize: 16, fontWeight: FontWeight.w600, letterSpacing: 1),
             labelColor: Colors.black,
             unselectedLabelColor: Colors.grey,
-            indicatorColor: Colors.amber[600],
+            indicatorColor: Colors.deepOrangeAccent,
             tabs: const [
               Tab(
                 text: "Xabarlar",
